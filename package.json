@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/reqsnap",
+  "version": "1.0.0",
+  "description": "Snapshot API responses and diff against previous snapshots. Detect breaking changes in status, headers, and body. Save, check, and compare API responses over time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "reqsnap": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "api",
+    "snapshot",
+    "diff",
+    "response",
+    "testing",
+    "regression",
+    "breaking-changes",
+    "cli",
+    "http",
+    "rest-api",
+    "compare",
+    "monitor",
+    "contract-testing",
+    "npx"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/reqsnap"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
